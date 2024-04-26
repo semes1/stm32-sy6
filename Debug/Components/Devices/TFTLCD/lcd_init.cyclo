@@ -1,0 +1,6 @@
+../Components/Devices/TFTLCD/lcd_init.c:8:6:LCD_Writ_Bus	3
+../Components/Devices/TFTLCD/lcd_init.c:35:6:LCD_WR_DATA8	1
+../Components/Devices/TFTLCD/lcd_init.c:46:6:LCD_WR_DATA	1
+../Components/Devices/TFTLCD/lcd_init.c:58:6:LCD_WR_REG	1
+../Components/Devices/TFTLCD/lcd_init.c:72:6:LCD_Address_Set	1
+../Components/Devices/TFTLCD/lcd_init.c:116:6:LCD_Init	1

@@ -1,0 +1,11 @@
+../Components/Devices/TFTLCD/lcd.c:12:6:LCD_Fill	3
+../Components/Devices/TFTLCD/lcd.c:31:6:LCD_DrawPoint	1
+../Components/Devices/TFTLCD/lcd.c:45:6:LCD_DrawLine	9
+../Components/Devices/TFTLCD/lcd.c:88:6:LCD_DrawRectangle	1
+../Components/Devices/TFTLCD/lcd.c:104:6:Draw_Circle	3
+../Components/Devices/TFTLCD/lcd.c:137:6:LCD_ShowChar	9
+../Components/Devices/TFTLCD/lcd.c:192:6:LCD_ShowString	2
+../Components/Devices/TFTLCD/lcd.c:208:5:mypow	2
+../Components/Devices/TFTLCD/lcd.c:226:6:LCD_ShowIntNum	5
+../Components/Devices/TFTLCD/lcd.c:258:6:LCD_ShowFloatNum1	3
+../Components/Devices/TFTLCD/lcd.c:288:6:LCD_ShowChinese	9
