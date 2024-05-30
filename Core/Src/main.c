@@ -268,14 +268,9 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 		if(engine_temp < 100)
 		{
 			HAL_GPIO_WritePin(GPIOA,GPIO_PIN_5,GPIO_PIN_SET);
+			HAL_GPIO_WritePin(GPIOA,GPIO_PIN_1,GPIO_PIN_SET);
 			printf("[%d]PWMFREQUENCE:%dKHz,duty:%d%%,Engine TEMP=%d,Alarm flag=no\r\n",student,pwm_freq,pwm_duty,engine_temp);
-		}
-		
-		if(engine_temp < 100)
-		{
-			HAL_GPIO_TogglePin(GPIOA,GPIO_PIN_1);
-		}
-		
+		}		
 	}
 		if(htim->Instance == TIM7)
 		{
